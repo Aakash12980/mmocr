@@ -18,6 +18,7 @@ pip3 install -e .
 To infer on custom images, Place the images inside ```mmocr/demo``` folder.
 The output image will be saved inside ``` mmocr/output/out.jpg ``` with all the bounding detected bounding boxes printed in the image.
 The information regarding angles is printed in the command line. Each bounding box's angles can be seen with their mean value and with highest recurring angle.
+The list of predicted text is also printed in the command screen.
 
 ```
 conda activate open-mmlab
